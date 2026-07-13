@@ -97,9 +97,6 @@ const API_KEY = "YOUR_API_KEY";
 
 ![Movie Details](screenshots/movie-details.png)
 
-### Movie Details
-
-> Add another screenshot here.
 
 ---
 

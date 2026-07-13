@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🎬 Movie Search App</h1>
+
+        <!-- Search Box -->
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="movieInput"
+                placeholder="Enter movie name"
+            >
+
+            <select id="yearFilter">
+                <option value="">All Years</option>
+            </select>
+
+            <select id="typeFilter">
+                <option value="">All</option>
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+            </select>
+
+            <button id="searchBtn">
+                Search
+            </button>
+            <button id="showFavoritesBtn">
+    ❤️ Favorites
+</button>
+
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+
+            <button id="prevBtn">
+                Previous
+            </button>
+
+            <span id="pageNumber">
+                1
+            </span>
+
+            <button id="nextBtn">
+                Next
+            </button>
+
+        </div>
+
+        <div id="loader"></div>
+
+        <div id="movieContainer"></div>
+
+    </div>
+
+    <!-- Movie Details Modal -->
+
+    <div id="movieModal" class="modal">
+
+        <div class="modal-content">
+
+            <span id="closeBtn">&times;</span>
+
+            <div id="modalBody"></div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        Made by Rishika Raj ❤️
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<button class="favorite-btn"
+onclick="addFavorite('${details.imdbID}')">
+❤️ Favorite
+</button>

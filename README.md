@@ -6,7 +6,7 @@ A responsive and interactive movie search application built with **HTML5, CSS3, 
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:** *(Add your GitHub Pages live link here after deployment)*
+🔗 **Live Website:** (https://rishikaraj20050-ctrl.github.io/movie-search-app/)
 
 Example:
 
